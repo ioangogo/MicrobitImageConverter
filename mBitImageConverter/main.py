@@ -12,7 +12,7 @@ def convertoGrayScaleMBITIMG(img, w, h):
         px = grayimg.load()
         varname = input("What will the varible be called: ")
         var = 'MicroBitImage {}("'.format(varname)
-        for y in range(h-1, -1, -1):
+        for y in range(0, h):
             for x in range(0, w):
                 pixelVal = px[x, y]
                 var+="{}".format(pixelVal)
@@ -28,7 +28,7 @@ def convertoBlackWhiteMBITIMG(img, w, h):
         px = grayimg.load()
         varname = input("What will the varible be called: ")
         var = 'MicroBitImage {}("'.format(varname)
-        for y in range(h-1, -1, -1):
+        for y in range(0, h):
             for x in range(0, w):
                 pixelVal = px[x, y]
                 if pixelVal > 0:
