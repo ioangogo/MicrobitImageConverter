@@ -3,6 +3,8 @@ __pycache__
 .idea/
 bin/
 include/
+build/
 lib/
 lib64
-
+mBitImageConverter.egg-info/
+*.egg

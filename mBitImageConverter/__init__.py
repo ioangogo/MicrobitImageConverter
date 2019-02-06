@@ -1,1 +1,1 @@
-from mBitImageConverter import main
+from mBitImageConverter.mBitImageConverter import main
