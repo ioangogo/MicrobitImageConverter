@@ -44,11 +44,3 @@ optional arguments:
   --BW        converts the images to black and white
 <<<<<<< HEAD
 ```
-
-# Example output
-
-```
-MicroBitImage north("0,0,255,0,0\n0,255,255,255,0\n255,0,255,0,255\n0,0,255,0,0\n0,0,255,0,0\n");
-=======
->>>>>>> expanding the README file
-```
