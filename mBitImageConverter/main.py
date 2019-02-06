@@ -31,11 +31,7 @@ def convertoBlackWhiteMBITIMG(img, w, h):
         for y in range(0, h):
             for x in range(0, w):
                 pixelVal = px[x, y]
-                if pixelVal > 0:
-                    pixelVal = 1
-                else:
-                    pixelVal = 0
-                var+="{}".format(pixelVal)
+                var+="{}".format(int(pixelVal>0))
                 if x == w-1:
                     var+="\\n"
                 else:
