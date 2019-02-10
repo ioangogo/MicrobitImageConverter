@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='mBitImageConverter',
-      version='1.0',
+      version='1.1',
       description='Converts any image format understood by PILLOW into a MicroBitImage',
       author='Ioan Loosley',
       author_email='legit.ioangogo@gmail.com',
