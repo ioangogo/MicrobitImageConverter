@@ -8,3 +8,4 @@ lib/
 lib64
 mBitImageConverter.egg-info/
 *.egg
+.vscode/
